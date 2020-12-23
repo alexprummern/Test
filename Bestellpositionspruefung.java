@@ -8,15 +8,15 @@ public class Bestellpositionspruefung{
 	public static void main(String[] args) {
 			for(int i = 0; i <= 100; i++)
 			{	
-				if(Warenkorb.Artikelmenge[i] = 0)															//Abbruch Pr¸fung f¸r leeren Warenkorb (muss noch mit Array angepasst werden)
-					System.out.println("Es wurde ein Fehler erkannt. Pr¸fen Sie den Warenkorb");	
+				if(Warenkorb.Artikelmenge[i] = 0)								//Abbruch Pr√ºfung f√ºr leeren Warenkorb (muss noch mit Array angepasst werden)
+					System.out.println("Es wurde ein Fehler erkannt. Pr√ºfen Sie den Warenkorb");	
 			}
 	}
 	public static void pruefungverschiedeneartikel(String[] args) {
 		
-		//Es d¸rfen nur 100 Artikel im Warenkorb sein, Menge ist dabei egal
+		//Es d√ºrfen nur 100 Artikel im Warenkorb sein, Menge ist dabei egal
 		
-		if(Warenkorb.Artikelposition[i] > 100)																//Artikelnummer kann schlecht gepr¸ft werden, es muss eine laufende Nummer geben
+		if(Warenkorb.Artikelposition[i] > 100)										//Artikelnummer kann schlecht gepr√ºft werden, es muss eine laufende Nummer geben
 			System.out.println("Es wurden zu viele Artikel bestellt. Passen Sie den Warenkorb an");
 	}
 
