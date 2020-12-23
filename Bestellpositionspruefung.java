@@ -8,7 +8,7 @@ public class Bestellpositionspruefung{
 	public static void main(String[] args) {
 			for(int i = 0; i <= 100; i++)
 			{	
-				if(Warenkorb.Artikelmenge[i] = 0)								//Abbruch Prüfung für leeren Warenkorb (muss noch mit Array angepasst werden)
+				if(Warenkorb.Artikelmenge[i] = 0)							 	//Abbruch Prüfung für leeren Warenkorb (muss noch mit Array angepasst werden)
 					System.out.println("Es wurde ein Fehler erkannt. Prüfen Sie den Warenkorb");	
 			}
 	}
